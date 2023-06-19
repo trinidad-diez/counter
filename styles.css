@@ -1,0 +1,72 @@
+/* Reset Styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+/*Globals*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Colors*/
+:root{
+    --white: #f7f7f7;
+    --black: #06080F;
+    --light-blue: #19647E;
+}
+
+/*Body*/
+body{
+    height: 100vh;
+    background-color: var(--white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*title*/
+h1{
+    text-transform:capitalize;
+}
+
+/*Span*/
+span{
+    font-size: larger;
+}
+
+/*Button*/
+button{
+    display: flex;
+    justify-self: center;
+
+    margin: auto;
+    padding: 10px;
+
+    border: solid var(--black) 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    transition: all 2s;
+
+    display: inline;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: var(--light-blue);
+    color: var(--white);
+}
